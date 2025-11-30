@@ -1,10 +1,10 @@
-# SDGF 
+# D-CTNet 
 
 This is an implementation of [D-CTNet: A Dual-Branch Channel-Temporal Forecasting Network with Frequency-Domain Correction].
 
 ## Usage
 
-- Train and evaluate SDGF
+- Train and evaluate D-CTNet
   - You can use the following command:`sh ./scripts/ETTh1.sh`.
 
 - Train your model
