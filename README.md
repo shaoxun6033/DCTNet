@@ -15,7 +15,7 @@ This is an implementation of [D-CTNet: A Dual-Branch Channel-Temporal Forecastin
 Proposed a Patch-Based Dual-Branch Channel-Temporal Forecasting Network (D-CTNet). Particularly, with a parallel dual-branch design incorporating linear temporal modeling layer and channel attention mechanism, our method explicitly decouples and jointly learns intra-channel temporal evolution patterns and dynamic multivariate correlations. Furthermore, a global patch attention fusion module goes beyond the local window scope to model long range dependencies. Most importantly, aiming at non-stationarity, a Frequency-Domain Stationarity Correction mechanism adaptively suppresses distribution shift impacts from environment change by spectrum alignment.
 
 <div align=center>
-<img src="https://github.com/shaoxun6033/DCTNet/blob/main/pic/" width='45%'> <img src="https://github.com/shaoxun6033/DCTNet/blob/main/pic/image.png" width='47%'>
+<img src="https://github.com/shaoxun6033/DCTNet/blob/main/pic/image.png" width='47%'>
 </div>
 
 
