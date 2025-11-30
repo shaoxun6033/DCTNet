@@ -12,11 +12,10 @@ This is an implementation of [D-CTNet: A Dual-Branch Channel-Temporal Forecastin
   - Add model in the ***class*** Exp_Main.
 
 ## Model
-
-Our proposed SDGF Network consists of three key modules: Graph Structure Learning module that uses RevIN normalization and Multi-level Wavelet Decomposition to construct static and dynamic inter-series graphs, an Attention Gated Fusion module that adaptively integrates static and dynamic graph features, and Temporal Feature Learning module that employs multi-kernel dilated convolutions and an MLP-based output layer to capture temporal dependencies and generate predictions.
+Proposed a Patch-Based Dual-Branch Channel-Temporal Forecasting Network (D-CTNet). Particularly, with a parallel dual-branch design incorporating linear temporal modeling layer and channel attention mechanism, our method explicitly decouples and jointly learns intra-channel temporal evolution patterns and dynamic multivariate correlations. Furthermore, a global patch attention fusion module goes beyond the local window scope to model long range dependencies. Most importantly, aiming at non-stationarity, a Frequency-Domain Stationarity Correction mechanism adaptively suppresses distribution shift impacts from environment change by spectrum alignment.
 
 <div align=center>
-<img src="https://github.com//SDGF/blob/main/pic/" width='45%'> <img src="https://github.com//SDGF/blob/main/pic/model2.jpg" width='47%'>
+<img src="https://github.com//DCTNet/blob/main/pic/" width='45%'> <img src="https://github.com//DCTNet/blob/main/pic/image.png" width='47%'>
 </div>
 
 
